@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Contact:
+Please contact us by writing to vgoutdev@outlook.com.
+We will be very happy to respond.
 
 
