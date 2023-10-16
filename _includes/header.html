@@ -5,8 +5,8 @@
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-        <svg height="30" width="200">
-            <text x="0" y="15" fill="red">{{ site.title | escape }}</text>
+        <svg>
+            <text x="0" y="0">{{ site.title | escape }}</text>
         </svg>
         
     </a>
