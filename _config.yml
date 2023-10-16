@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   We are a new startup based on quality and customer service. 
   Our goal is to share with our customers the experience gained after working with the best pros in the IT area.
   Do not hesitate to contact us for small or big projects.
-  For sure your company will have to gain!
+  For sure your company will have only to gain!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vgoutdev
