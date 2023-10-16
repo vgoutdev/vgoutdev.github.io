@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: VG OutDev
+logo: /assets/img/logo4.png
 email: vgoutdev@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Who are we? 
