@@ -1,0 +1,6 @@
+/* Cover Image */
+.logo {
+  .feature-img: {
+    max-width: 100%;
+  }
+}

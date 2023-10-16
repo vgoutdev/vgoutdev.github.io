@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About
+title: About us
 permalink: /about/
 ---
 
-Contact:
+Please contact us by writing to vgoutdev@outlook.com.
+We will be very happy to respond.
 
 
