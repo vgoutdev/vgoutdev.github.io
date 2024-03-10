@@ -1,14 +1,13 @@
----
-layout: base
----
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+</head>
+<body>
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
+{{ content }}
 
 
 
-</div>
+</body>
+</html>
