@@ -3,9 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: bill
-title: iBill - the easiest way to do accountancy
+title: iBill
 permalink: iBill - the easiest way to do accountancy
 ---
+
+![Image Alt Text](/path/to/image.jpg)
 
 [Access iBill community](https://ibill.vgoutdev.com/)
 
