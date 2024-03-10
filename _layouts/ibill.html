@@ -2,25 +2,9 @@
 layout: base
 ---
 
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-</head>
-<body>
-
-{{ content }}
-
-<!-- Button for redirect -->
-<button id="redirectButton">iBill</button>
-
-<script>
-document.getElementById("redirectButton").addEventListener("click", function() {
-    // Redirect to the desired URL
-    window.location.href = "https://ibill.vgoutdev.com/";
-});
-</script>
-
-</body>
-</html>
+  {{ content }}
