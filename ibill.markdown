@@ -8,3 +8,5 @@ permalink: iBill
 ---
 
 [Access iBill community](https://ibill.vgoutdev.com/)
+
+![iBill](/assets/ibill.svg)
