@@ -4,5 +4,5 @@
 
 layout: ibill
 title: iBill
-permalink: <a href="https://vgoutdev.com/"></a>
+permalink: https://vgoutdev.com/
 ---
