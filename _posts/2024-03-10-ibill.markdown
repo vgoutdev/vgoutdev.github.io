@@ -2,7 +2,7 @@
 layout: post
 title:  "iBill"
 date:   2024-03-10 09:30:30 +0000
-categories: products
+categories: company
 ---
 
 VG OUTDEV presents you iBill - the easiest way to do accountancy.
