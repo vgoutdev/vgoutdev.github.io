@@ -7,4 +7,4 @@ title: iBill
 permalink: iBill - the easiest way to do accountancy
 ---
 
-[Click me to redirect](https://ibill.vgoutdev.com)
+[Access iBill community](https://ibill.vgoutdev.com)
