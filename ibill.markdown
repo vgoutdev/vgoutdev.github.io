@@ -7,7 +7,7 @@ title: iBill
 permalink: iBill - the easiest way to do accountancy
 ---
 
-![Image Alt Text](/path/to/image.jpg)
+![Image Alt Text](/assets/ibill.svg)
 
 [Access iBill community](https://ibill.vgoutdev.com/)
 
