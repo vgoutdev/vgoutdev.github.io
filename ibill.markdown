@@ -4,5 +4,7 @@
 
 layout: ibill
 title: iBill
-permalink: https://ibill.vgoutdev.com/
+permalink: iBill - the easiest way to do accountancy
 ---
+
+[Click me to redirect](https://ibill.vgoutdev.com)
