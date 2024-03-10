@@ -10,5 +10,3 @@ permalink: iBill - the easiest way to do accountancy
 ![Image Alt Text](/assets/ibill.svg)
 
 [Access iBill community](https://ibill.vgoutdev.com/)
-
-[Register in iBill community](https://ibill.vgoutdev.com/register)
