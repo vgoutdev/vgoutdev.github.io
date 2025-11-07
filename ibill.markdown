@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: ibill
-title: iBill - the easiest way to do accountancy
+title: Our products
 permalink: iBill
 ---
 
