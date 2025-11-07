@@ -7,6 +7,5 @@ title: Our products
 permalink: iBill
 ---
 
-[Access iBill community](https://ibill.vgoutdev.com/)
-
-![iBill](/assets/ibill.svg)
+[iBill](https://ibill.vgoutdev.com/)
+[SchoolLibrary](https://library.vgoutdev.com/)
