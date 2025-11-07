@@ -4,7 +4,7 @@
 
 layout: products
 title: Our products
-permalink: products
+permalink: /products/
 ---
 
 [iBill](https://ibill.vgoutdev.com/)
