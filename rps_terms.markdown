@@ -1,3 +1,8 @@
+---
+layout: null
+---
+
+
 # Privacy Policy for Rock Paper Scissors Pro
 
 **Developer Name:** VGdeveloper
