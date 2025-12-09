@@ -3,14 +3,14 @@ layout: null
 ---
 
 
-# Privacy Policy for Rock Paper Scissors Pro
+# Privacy Policy for RPS Blitz (Rock Paper Scissors)
 
 **Developer Name:** VGdeveloper
 **Last Updated:** December 9, 2025
 
 ## 1. Introduction
 
-This Privacy Policy governs the practices of **VGdeveloper** ("Developer," "We," "Us") regarding the **Rock Paper Scissors Pro** mobile application ("Application" or "Game").
+This Privacy Policy governs the practices of **VGdeveloper** ("Developer," "We," "Us") regarding the **RPS Blitz** mobile application ("Application" or "Game").
 
 ## 2. Information We Collect
 
