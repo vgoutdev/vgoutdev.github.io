@@ -13,7 +13,7 @@ Această pagină explică pașii prin care utilizatorii aplicației **Drugal** p
 
 Pentru a solicita ștergerea contului și a datelor asociate:
 
-1. Trimite un email la: **[ADD_CONTACT_EMAIL]**
+1. Trimite un email la: **vgoutdev@gmail.com**
 2. Folosește subiectul: **Delete account request - Drugal**
 3. Include în mesaj:
    - adresa de email folosită la autentificare,
@@ -46,4 +46,4 @@ Dacă folosești aplicația fără cont, poți opri prelucrarea prin dezinstalar
 
 ## Contact
 
-Pentru întrebări legate de confidențialitate și ștergerea datelor: **[ADD_CONTACT_EMAIL]**
+Pentru întrebări legate de confidențialitate și ștergerea datelor: **vgoutdev@gmail.com**
