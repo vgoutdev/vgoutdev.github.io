@@ -48,7 +48,7 @@ The app is not intended for children under the age required by local law without
 We apply reasonable technical and organizational measures to protect data.
 
 ## Contact
-For privacy questions, contact: **[ADD_CONTACT_EMAIL]**
+For privacy questions, contact: **vgoutdev@gmail.com**
 
 ## Changes to this policy
 We may update this policy. Material changes will be reflected by updating the date above.
