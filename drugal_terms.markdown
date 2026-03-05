@@ -36,6 +36,15 @@ Data may be processed by service providers used by the app (e.g., Firebase/Googl
 ## Data retention
 Data is retained only as long as needed for app functionality and legal/security requirements, or until you delete your account/data where applicable.
 
+## Account deletion
+You can request account and associated data deletion using the dedicated deletion page:
+**https://vgoutdev.com/account_deletion_drugal.html**
+
+The deletion page explains:
+- how to submit a deletion request,
+- what data is deleted,
+- what data may be temporarily retained and retention periods.
+
 ## Your choices
 - You can deny camera permission, but scan/OCR features will not work.
 - You can uninstall the app at any time.
