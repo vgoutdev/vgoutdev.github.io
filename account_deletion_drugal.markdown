@@ -1,3 +1,8 @@
+---
+layout: null
+---
+
+
 # Ștergerea contului și a datelor – Drugal
 
 Ultima actualizare: 2026-03-05
