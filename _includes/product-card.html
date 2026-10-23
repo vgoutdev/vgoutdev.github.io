@@ -1,0 +1,45 @@
+{%- assign p = include.product -%}
+{%- assign tp = t.products[p.id] -%}
+<article class="card product-card reveal{% if p.images %} has-gallery{% endif %}">
+  {%- if p.images -%}
+  <div class="gallery" data-gallery>
+    <div class="gallery-track" tabindex="0" aria-label="{{ p.name }} – {{ t.portfolio.screenshot }}">
+      {%- for img in p.images -%}
+      {%- assign caption = tp.shots[forloop.index0] | default: p.name -%}
+      <figure class="gallery-slide">
+        <button type="button" class="gallery-open" data-full="{{ img | relative_url }}" data-caption="{{ caption }}" aria-label="{{ caption }}">
+          <img src="{{ img | relative_url }}" alt="{{ p.name }}: {{ caption }}" loading="lazy">
+        </button>
+        <figcaption>{{ caption }}</figcaption>
+      </figure>
+      {%- endfor -%}
+    </div>
+    <button type="button" class="gallery-nav prev" aria-label="{{ t.portfolio.prev }}">‹</button>
+    <button type="button" class="gallery-nav next" aria-label="{{ t.portfolio.next }}">›</button>
+    <div class="gallery-dots" aria-hidden="true">
+      {%- for img in p.images -%}<span{% if forloop.first %} class="on"{% endif %}></span>{%- endfor -%}
+    </div>
+  </div>
+  {%- endif -%}
+
+  <div class="product-body">
+    <div class="card-top">
+      <span class="product-mark" aria-hidden="true">{{ p.name | slice: 0 }}</span>
+      <span class="pill pill-{{ p.kind }}">{% if p.kind == "web" %}{{ t.portfolio.web_pill }}{% else %}{{ t.portfolio.app_pill }}{% endif %}</span>
+    </div>
+    <h3>{{ p.name }}</h3>
+    <p class="card-tagline">{{ tp.tagline | default: p.tagline }}</p>
+    <p>{{ tp.description | default: p.description }}</p>
+    <div class="card-links">
+      {%- if p.link -%}
+      <a class="link-arrow" href="{{ p.link }}">{{ t.portfolio.open }} {{ p.name }} →</a>
+      {%- endif -%}
+      {%- if p.privacy -%}
+      <a class="link-muted" href="{{ p.privacy | relative_url }}">{{ t.portfolio.privacy }}</a>
+      {%- endif -%}
+      {%- if p.account_deletion -%}
+      <a class="link-muted" href="{{ p.account_deletion | relative_url }}">{{ t.portfolio.delete_account }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</article>

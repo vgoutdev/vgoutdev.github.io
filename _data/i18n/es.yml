@@ -1,0 +1,258 @@
+lang_name: Español
+date_format: "%d/%m/%Y"
+
+nav:
+  home: Inicio
+  services: Servicios
+  products: Productos
+  about: Nosotros
+  contact: Contacto
+  quote: Pide presupuesto
+
+titles:
+  home: Desarrollo de software y outsourcing IT
+  services: Servicios
+  products: Nuestros productos
+  about: Sobre nosotros
+  contact: Contacto
+
+site_description: >-
+  Diseñamos, desarrollamos y mantenemos aplicaciones web y móviles, y ampliamos tu equipo con desarrolladores, testers e ingenieros de soporte experimentados.
+
+hero:
+  eyebrow: Desarrollo de software y outsourcing IT
+  title1: Creamos el software
+  title2: que impulsa tu negocio.
+  primary: Pide un presupuesto gratis
+  secondary: Ver servicios
+  points:
+    - Primera consulta gratuita
+    - El código es tuyo
+    - Con sede en la UE, cumplimos el RGPD
+  float1_title: Demos semanales
+  float1_text: Ve el progreso pronto
+  float2_title: Privacidad primero
+  float2_text: Integrada desde el primer día
+
+stack_label: Tecnologías con las que trabajamos
+
+services:
+  eyebrow: Servicios
+  title: Lo que podemos hacer por ti
+  all: Todos los servicios
+  page_eyebrow: Qué hacemos
+  page_lead: Desarrollo web y móvil, outsourcing IT y soporte a largo plazo, de la mano de un equipo comprometido con la calidad.
+  items:
+    - title: Desarrollo de aplicaciones web
+      icon: web
+      summary: Aplicaciones web rápidas y seguras para tu negocio, desde herramientas internas hasta plataformas para clientes.
+      points:
+        - Herramientas de negocio, portales y paneles
+        - Sistemas de facturación, inventario y gestión
+        - Responsive, en cualquier dispositivo
+    - title: Desarrollo de apps móviles
+      icon: mobile
+      summary: Apps Android y multiplataforma con Flutter, desde el primer prototipo hasta la publicación en la tienda.
+      points:
+        - Multiplataforma con Flutter
+        - Publicación y cumplimiento en Google Play
+        - Funcionan sin conexión y respetan la privacidad
+    - title: Outsourcing IT y especialistas dedicados
+      icon: team
+      summary: Amplía tu equipo con desarrolladores, testers e ingenieros de soporte experimentados que trabajan dentro de tu proceso.
+      points:
+        - Desarrolladores, testers QA e ingenieros de soporte
+        - Dedicación completa o parcial
+        - Tus herramientas, tu forma de trabajar, horario compartido
+        - Escala hacia arriba o hacia abajo cuando lo necesites
+    - title: Software a medida
+      icon: code
+      summary: Software adaptado a cómo trabaja realmente tu empresa, y no al revés.
+      points:
+        - Automatización de procesos manuales
+        - Integraciones entre las herramientas que usas
+        - Importación de datos, informes y exportaciones
+    - title: Mantenimiento y soporte
+      icon: support
+      summary: Mantenemos tu software actualizado, seguro y funcionando después del lanzamiento.
+      points:
+        - Corrección de errores y actualizaciones
+        - Actualizaciones de políticas de tiendas y versiones del sistema
+        - Monitorización y respuesta rápida
+
+stats:
+  - value: "2023"
+    label: año de fundación
+  - value: Gratis
+    label: primera consulta
+  - value: Web y móvil
+    label: desarrollo integral
+  - value: 1 día
+    label: tiempo de respuesta
+
+process:
+  eyebrow: Cómo trabajamos
+  title: De la idea al lanzamiento en cuatro pasos claros
+  lead: Siempre sabes qué se está construyendo, cuándo y cuánto cuesta.
+  steps:
+    - title: Descubrimiento
+      text: Hablamos de tus objetivos, usuarios y limitaciones, y acordamos un alcance claro.
+    - title: Propuesta y diseño
+      text: Recibes un calendario, un presupuesto cerrado y los primeros bocetos para opinar.
+    - title: Desarrollo
+      text: Trabajamos en iteraciones cortas y te mostramos software funcionando cada una o dos semanas.
+    - title: Lanzamiento y soporte
+      text: Lanzamos, publicamos en las tiendas y mantenemos tu producto en buena forma después del lanzamiento.
+
+models:
+  eyebrow: Formas de trabajar con nosotros
+  title: Elige el modelo que mejor se adapta a tu proyecto
+  badge: El más flexible
+  items:
+    - title: Proyecto a precio cerrado
+      sub: Ideal para productos bien definidos
+      points:
+        - Alcance, presupuesto y plazo acordados
+        - Entregas por hitos
+        - Sin sorpresas en la factura
+    - title: Especialista dedicado
+      sub: Ideal para trabajo continuo y equipos en crecimiento
+      featured: true
+      points:
+        - Un desarrollador, tester o ingeniero de soporte en tu equipo
+        - Compromiso mensual, escalable en cualquier momento
+        - Tus herramientas y tu forma de trabajar
+    - title: Tiempo y materiales
+      sub: Ideal para requisitos que cambian
+      points:
+        - Pagas solo las horas trabajadas
+        - Cambia las prioridades sobre la marcha
+        - Informes semanales transparentes
+
+portfolio:
+  eyebrow: Portfolio
+  title: Productos que hemos creado
+  all: Todos los productos
+  page_lead: Aplicaciones web para empresas y escuelas, desarrolladas y gestionadas por nuestro equipo.
+  web: Aplicaciones web
+  apps: Apps móviles
+  web_pill: App web
+  app_pill: App móvil
+  open: Abrir
+  privacy: Política de privacidad
+  delete_account: Eliminar cuenta
+  prev: "Anterior"
+  next: "Siguiente"
+  close: "Cerrar"
+  screenshot: "Captura de pantalla"
+
+products:
+  ibill:
+    tagline: Facturación y contabilidad, fácil
+    description: Emite facturas, borradores, presupuestos y recibos con una sola herramienta sencilla pero potente.
+    shots:
+      - "Página de acceso"
+      - "Panel con resumen de facturación"
+      - "Crear factura con vista previa"
+      - "Productos y stock"
+      - "Albaranes de entrega"
+      - "Reserva de citas"
+      - "Cuenta de la empresa"
+  library:
+    tagline: Gestión de bibliotecas escolares
+    description: Controla los libros, préstamos y lectores de la biblioteca de tu escuela.
+    shots:
+      - "Panel principal"
+      - "Libros de la biblioteca, con escaneo de ISBN"
+      - "Fichas de libros"
+      - "Alumnos y préstamos"
+      - "Profesores, con el asistente integrado"
+      - "Usuarios de la cuenta y permisos"
+
+faq:
+  eyebrow: Preguntas frecuentes
+  title: Preguntas frecuentes
+  items:
+    - q: ¿Cómo empieza un proyecto?
+      a: Envíanos una breve descripción de lo que necesitas. Te respondemos con preguntas y luego con una propuesta con alcance, calendario y coste. La primera consulta es gratuita.
+    - q: ¿Trabajáis con pequeñas empresas y startups?
+      a: Sí. Trabajamos en proyectos de cualquier tamaño, desde una sola app o funcionalidad hasta colaboraciones a largo plazo.
+    - q: ¿Podéis uniros a nuestro equipo?
+      a: Sí. Con nuestro modelo de outsourcing, nuestros desarrolladores, testers e ingenieros de soporte trabajan dentro de tu proceso, usando tus repositorios, tu gestor de tareas y tus herramientas de comunicación.
+    - q: ¿De quién es el código?
+      a: Tuyo. Una vez pagado el proyecto, el código fuente y todos sus derechos te pertenecen.
+    - q: ¿Qué pasa después del lanzamiento?
+      a: Podemos seguir manteniendo el producto, con correcciones, actualizaciones para nuevas versiones de Android y navegadores, cambios en las políticas de las tiendas y nuevas funcionalidades.
+    - q: ¿Cómo tratáis la privacidad y los datos?
+      a: Integramos la privacidad desde el principio. Recogemos los mínimos datos posibles y aplicamos los requisitos del RGPD al software que creamos para nuestros clientes.
+
+cta:
+  title: Construyamos juntos algo increíble
+  text: Cuéntanos tu proyecto. Te respondemos en un día laborable con los siguientes pasos.
+  button: Pide un presupuesto gratis
+
+contact:
+  eyebrow: Contacta con nosotros
+  title: Hablemos de tu proyecto
+  lead: Cuéntanos tu proyecto. La primera consulta es gratuita y respondemos en un día laborable.
+  name: Tu nombre
+  company: Empresa
+  optional: (opcional)
+  need: ¿Qué necesitas?
+  other: Otra cosa
+  budget: Presupuesto estimado
+  budgets:
+    - Aún no lo sé
+    - Menos de 5.000 €
+    - 5.000 – 15.000 €
+    - 15.000 – 50.000 €
+    - Más de 50.000 €
+    - Mensual (desarrollador, tester o ingeniero de soporte)
+  details: Detalles del proyecto
+  placeholder: ¿Qué estás construyendo, para quién y para cuándo lo necesitas?
+  send: Enviar mensaje
+  your_email: "Tu email"
+  sending: "Enviando..."
+  success: "¡Gracias! Tu mensaje se ha enviado. Te responderemos en un día laborable."
+  error: "Lo sentimos, no se ha podido enviar el mensaje. Inténtalo de nuevo en unos minutos."
+  subject: Consulta de proyecto
+  email: Email
+  response_title: Tiempo de respuesta
+  response_text: En un día laborable
+  consult_title: Consulta gratuita
+  consult_text: Una llamada breve para entender tus necesidades, sin compromiso
+  next_title: ¿Qué pasa después?
+  next_steps:
+    - Leemos tu mensaje y te respondemos con preguntas.
+    - Programamos una llamada breve si es útil.
+    - Recibes una propuesta con alcance, calendario y precio.
+
+about:
+  eyebrow: Quiénes somos
+  lead: Una empresa de desarrollo de software y outsourcing que convierte ideas en software fiable.
+  intro:
+    - VG OutDev es una empresa de desarrollo de software y outsourcing IT, fundada en 2023 y basada en dos pilares, <strong>la calidad</strong> y <strong>la atención al cliente</strong>.
+    - Nuestro equipo aporta la experiencia adquirida trabajando junto a grandes profesionales del sector IT. La ponemos al servicio de proyectos de cualquier tamaño, desde una sola app móvil hasta las herramientas con las que funciona toda tu empresa.
+  values_title: En qué creemos
+  values:
+    - title: Comunicación clara
+      text: Siempre sabes qué se está construyendo, cuándo y cuánto cuesta.
+    - title: Calidad sin atajos
+      text: Código limpio, probado y fácil de mantener, que sigue funcionando después del lanzamiento.
+    - title: Privacidad desde el diseño
+      text: Recogemos los mínimos datos posibles y trabajamos igual para nuestros clientes.
+    - title: Relaciones a largo plazo
+      text: Preferimos ser el equipo al que llamas para el siguiente proyecto que un proveedor puntual.
+
+footer:
+  tagline: Desarrollo de software y outsourcing IT.
+  company: Empresa
+  services: Servicios
+  contact: Contacto
+  quote: Pide presupuesto
+  rights: Todos los derechos reservados.
+
+not_found:
+  title: Página no encontrada
+  text: Lo sentimos, la página que buscas no existe.
+  back: Volver al inicio

@@ -1,0 +1,258 @@
+lang_name: Italiano
+date_format: "%d/%m/%Y"
+
+nav:
+  home: Home
+  services: Servizi
+  products: Prodotti
+  about: Chi siamo
+  contact: Contatti
+  quote: Richiedi un preventivo
+
+titles:
+  home: Sviluppo software e outsourcing IT
+  services: Servizi
+  products: I nostri prodotti
+  about: Chi siamo
+  contact: Contatti
+
+site_description: >-
+  Progettiamo, sviluppiamo e manteniamo applicazioni web e mobile, e rafforziamo il tuo team con sviluppatori, tester e tecnici di supporto esperti.
+
+hero:
+  eyebrow: Sviluppo software e outsourcing IT
+  title1: Sviluppiamo il software
+  title2: su cui gira la tua azienda.
+  primary: Richiedi un preventivo gratuito
+  secondary: Scopri i servizi
+  points:
+    - Prima consulenza gratuita
+    - Il codice è tuo
+    - Con sede nell’UE, conformi al GDPR
+  float1_title: Demo settimanali
+  float1_text: Vedi i progressi subito
+  float2_title: Privacy al primo posto
+  float2_text: Integrata dal primo giorno
+
+stack_label: Tecnologie che utilizziamo
+
+services:
+  eyebrow: Servizi
+  title: Cosa possiamo fare per te
+  all: Tutti i servizi
+  page_eyebrow: Cosa facciamo
+  page_lead: Sviluppo web e mobile, outsourcing IT e supporto a lungo termine, offerti da un team che tiene alla qualità.
+  items:
+    - title: Sviluppo di applicazioni web
+      icon: web
+      summary: App web veloci e sicure per la tua azienda, dagli strumenti interni alle piattaforme per i clienti.
+      points:
+        - Strumenti aziendali, portali e dashboard
+        - Sistemi di fatturazione, magazzino e gestione
+        - Responsive, su qualsiasi dispositivo
+    - title: Sviluppo di app mobile
+      icon: mobile
+      summary: App Android e multipiattaforma realizzate con Flutter, dal primo prototipo alla pubblicazione negli store.
+      points:
+        - Multipiattaforma con Flutter
+        - Pubblicazione e conformità su Google Play
+        - Funzionamento offline e rispetto della privacy
+    - title: Outsourcing IT e specialisti dedicati
+      icon: team
+      summary: Amplia il tuo team con sviluppatori, tester e tecnici di supporto esperti che lavorano all’interno dei tuoi processi.
+      points:
+        - Sviluppatori, tester QA e tecnici di supporto
+        - Collaborazione a tempo pieno o part-time
+        - I tuoi strumenti, il tuo metodo, orari condivisi
+        - Aumenta o riduci le risorse quando serve
+    - title: Software su misura
+      icon: code
+      summary: Software costruito attorno al modo in cui lavora davvero la tua azienda, non il contrario.
+      points:
+        - Automazione dei processi manuali
+        - Integrazioni tra gli strumenti che usi
+        - Importazione dati, report ed esportazioni
+    - title: Manutenzione e supporto
+      icon: support
+      summary: Manteniamo il tuo software aggiornato, sicuro e funzionante dopo il lancio.
+      points:
+        - Correzione di bug e aggiornamenti
+        - Aggiornamenti per le policy degli store e le nuove versioni del sistema operativo
+        - Monitoraggio e risposta rapida
+
+stats:
+  - value: "2023"
+    label: anno di fondazione
+  - value: Gratuita
+    label: prima consulenza
+  - value: Web e mobile
+    label: realizzazione completa
+  - value: 1 giorno
+    label: tempo di risposta
+
+process:
+  eyebrow: Come lavoriamo
+  title: Dall’idea al lancio in quattro passi chiari
+  lead: Sai sempre cosa stiamo sviluppando, quando e quanto costa.
+  steps:
+    - title: Analisi
+      text: Parliamo di obiettivi, utenti e vincoli, poi definiamo insieme un perimetro chiaro.
+    - title: Proposta e design
+      text: Ricevi una pianificazione, un preventivo fisso e i primi mockup da valutare.
+    - title: Sviluppo
+      text: Lavoriamo in brevi iterazioni e ti mostriamo software funzionante ogni una o due settimane.
+    - title: Lancio e supporto
+      text: Rilasciamo, pubblichiamo negli store e manteniamo il prodotto in salute dopo il lancio.
+
+models:
+  eyebrow: Come collaborare
+  title: Scegli il modello adatto al tuo progetto
+  badge: Il più flessibile
+  items:
+    - title: Progetto a prezzo fisso
+      sub: Ideale per prodotti ben definiti
+      points:
+        - Perimetro, budget e scadenza concordati
+        - Consegna per milestone
+        - Nessuna sorpresa in fattura
+    - title: Specialista dedicato
+      sub: Ideale per lavoro continuativo e team in crescita
+      featured: true
+      points:
+        - Uno sviluppatore, tester o tecnico di supporto nel tuo team
+        - Impegno mensile, scalabile in qualsiasi momento
+        - I tuoi strumenti e il tuo metodo
+    - title: Time & material
+      sub: Ideale per requisiti in evoluzione
+      points:
+        - Paghi solo le ore lavorate
+        - Cambi le priorità strada facendo
+        - Report settimanali trasparenti
+
+portfolio:
+  eyebrow: Portfolio
+  title: Prodotti che abbiamo realizzato
+  all: Tutti i prodotti
+  page_lead: Applicazioni web per aziende e scuole, sviluppate e gestite dal nostro team.
+  web: Applicazioni web
+  apps: App mobile
+  web_pill: App web
+  app_pill: App mobile
+  open: Apri
+  privacy: Informativa sulla privacy
+  delete_account: Elimina account
+  prev: "Precedente"
+  next: "Successivo"
+  close: "Chiudi"
+  screenshot: "Screenshot"
+
+products:
+  ibill:
+    tagline: Fatturazione e contabilità, in modo semplice
+    description: Emetti fatture, bozze, preventivi e ricevute con un unico strumento semplice ma potente.
+    shots:
+      - "Pagina di accesso"
+      - "Dashboard con panoramica delle fatture"
+      - "Creazione fattura con anteprima"
+      - "Prodotti e magazzino"
+      - "Documenti di trasporto"
+      - "Prenotazione appuntamenti"
+      - "Account aziendale"
+  library:
+    tagline: Gestione della biblioteca scolastica
+    description: Tieni traccia di libri, prestiti e lettori della biblioteca della tua scuola.
+    shots:
+      - "Dashboard"
+      - "Libri della biblioteca, con scansione ISBN"
+      - "Schede dei libri"
+      - "Studenti e prestiti"
+      - "Docenti, con l’assistente integrato"
+      - "Utenti dell’account e permessi"
+
+faq:
+  eyebrow: FAQ
+  title: Domande frequenti
+  items:
+    - q: Come inizia un progetto?
+      a: Inviaci una breve descrizione di ciò che ti serve. Ti rispondiamo con alcune domande e poi con una proposta che include perimetro, tempi e costi. La prima consulenza è gratuita.
+    - q: Lavorate con piccole aziende e startup?
+      a: Sì. Lavoriamo a progetti di ogni dimensione, da una singola app o funzionalità a collaborazioni a lungo termine.
+    - q: Potete entrare nel nostro team?
+      a: Sì. Con il modello di outsourcing, i nostri sviluppatori, tester e tecnici di supporto lavorano all’interno dei tuoi processi, usando i tuoi repository, il tuo sistema di task e i tuoi strumenti di comunicazione.
+    - q: A chi appartiene il codice?
+      a: A te. Una volta pagato il progetto, il codice sorgente e tutti i diritti su di esso sono tuoi.
+    - q: Cosa succede dopo il lancio?
+      a: Possiamo continuare a mantenere il prodotto, con correzioni, aggiornamenti per le nuove versioni di Android e dei browser, adeguamenti alle policy degli store e nuove funzionalità.
+    - q: Come gestite privacy e dati?
+      a: Integriamo la privacy fin dall’inizio. Raccogliamo meno dati possibile e applichiamo i requisiti del GDPR al software che sviluppiamo per i clienti.
+
+cta:
+  title: Costruiamo insieme qualcosa di grande
+  text: Raccontaci il tuo progetto. Ti rispondiamo entro un giorno lavorativo con i prossimi passi.
+  button: Richiedi un preventivo gratuito
+
+contact:
+  eyebrow: Contattaci
+  title: Parliamo del tuo progetto
+  lead: Raccontaci il tuo progetto. La prima consulenza è gratuita e rispondiamo entro un giorno lavorativo.
+  name: Il tuo nome
+  company: Azienda
+  optional: (facoltativo)
+  need: Di cosa hai bisogno?
+  other: Altro
+  budget: Budget stimato
+  budgets:
+    - Non lo so ancora
+    - Meno di 5.000 €
+    - 5.000 – 15.000 €
+    - 15.000 – 50.000 €
+    - Oltre 50.000 €
+    - Mensile (sviluppatore, tester o tecnico di supporto)
+  details: Dettagli del progetto
+  placeholder: Cosa stai costruendo, per chi, ed entro quando ti serve?
+  send: Invia messaggio
+  your_email: "La tua email"
+  sending: "Invio in corso..."
+  success: "Grazie! Il tuo messaggio è stato inviato. Ti risponderemo entro un giorno lavorativo."
+  error: "Spiacenti, non è stato possibile inviare il messaggio. Riprova tra qualche minuto."
+  subject: Richiesta progetto
+  email: Email
+  response_title: Tempi di risposta
+  response_text: Entro un giorno lavorativo
+  consult_title: Consulenza gratuita
+  consult_text: Una breve chiamata per capire le tue esigenze, senza impegno
+  next_title: Cosa succede dopo?
+  next_steps:
+    - Leggiamo il tuo messaggio e ti rispondiamo con alcune domande.
+    - Fissiamo una breve chiamata, se utile.
+    - Ricevi una proposta con perimetro, tempi e prezzo.
+
+about:
+  eyebrow: Chi siamo
+  lead: Un’azienda di sviluppo software e outsourcing che trasforma le idee in software affidabile.
+  intro:
+    - VG OutDev è un’azienda di sviluppo software e outsourcing IT, fondata nel 2023 e basata su due principi, <strong>la qualità</strong> e <strong>l’attenzione al cliente</strong>.
+    - Il nostro team porta l’esperienza maturata lavorando accanto a grandi professionisti del settore IT. La mettiamo al servizio di progetti di ogni dimensione, da una singola app mobile agli strumenti su cui gira tutta la tua azienda.
+  values_title: In cosa crediamo
+  values:
+    - title: Comunicazione chiara
+      text: Sai sempre cosa stiamo sviluppando, quando e quanto costa.
+    - title: Qualità, non scorciatoie
+      text: Codice pulito, testato e manutenibile, che continua a funzionare dopo il lancio.
+    - title: Privacy by design
+      text: Raccogliamo meno dati possibile e sviluppiamo allo stesso modo per i nostri clienti.
+    - title: Collaborazioni durature
+      text: Preferiamo essere il team che chiami per il prossimo progetto piuttosto che un fornitore occasionale.
+
+footer:
+  tagline: Sviluppo software e outsourcing IT.
+  company: Azienda
+  services: Servizi
+  contact: Contatti
+  quote: Richiedi un preventivo
+  rights: Tutti i diritti riservati.
+
+not_found:
+  title: Pagina non trovata
+  text: Spiacenti, la pagina che cerchi non esiste.
+  back: Torna alla home

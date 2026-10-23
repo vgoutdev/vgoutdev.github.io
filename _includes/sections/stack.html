@@ -1,0 +1,12 @@
+<section class="stack-strip">
+  <div class="wrapper">
+    <span class="stack-label">{{ t.stack_label }}</span>
+    <ul class="stack">
+      {%- for tech in site.data.tech -%}
+      <li title="{{ tech.name }}">
+        <img src="{{ "/assets/img/tech/" | append: tech.logo | relative_url }}" alt="{{ tech.name }}" width="36" height="36">
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>

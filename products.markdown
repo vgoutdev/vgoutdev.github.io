@@ -1,11 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+# Text for this page lives in _data/i18n/en.yml
 layout: products
-title: Our products
+ref: products
+title: "Our products"
+description: "Web applications for businesses and schools, built and run by our team."
 permalink: /products/
 ---
-
-[iBill](https://ibill.vgoutdev.com/)
-[SchoolLibrary](https://library.vgoutdev.com/)

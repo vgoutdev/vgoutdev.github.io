@@ -1,0 +1,258 @@
+lang_name: Română
+date_format: "%d.%m.%Y"
+
+nav:
+  home: Acasă
+  services: Servicii
+  products: Produse
+  about: Despre noi
+  contact: Contact
+  quote: Cere o ofertă
+
+titles:
+  home: Dezvoltare software și outsourcing IT
+  services: Servicii
+  products: Produsele noastre
+  about: Despre noi
+  contact: Contact
+
+site_description: >-
+  Proiectăm, construim și întreținem aplicații web și mobile și îți extindem echipa cu programatori, testeri și ingineri de suport experimentați.
+
+hero:
+  eyebrow: Dezvoltare software și outsourcing IT
+  title1: Construim software-ul
+  title2: pe care rulează afacerea ta.
+  primary: Cere o ofertă gratuită
+  secondary: Vezi serviciile
+  points:
+    - Prima consultanță gratuită
+    - Codul sursă îți aparține
+    - Din UE, conform GDPR
+  float1_title: Demo săptămânal
+  float1_text: Vezi progresul din timp
+  float2_title: Confidențialitate
+  float2_text: Inclusă din prima zi
+
+stack_label: Tehnologii cu care lucrăm
+
+services:
+  eyebrow: Servicii
+  title: Ce putem face pentru tine
+  all: Toate serviciile
+  page_eyebrow: Ce facem
+  page_lead: Dezvoltare web și mobile, outsourcing IT și suport pe termen lung, livrate de o echipă căreia îi pasă de calitate.
+  items:
+    - title: Dezvoltare aplicații web
+      icon: web
+      summary: Aplicații web rapide și sigure pentru afacerea ta, de la instrumente interne la platforme pentru clienți.
+      points:
+        - Instrumente de business, portaluri și dashboard-uri
+        - Sisteme de facturare, inventar și management
+        - Responsive, funcționează pe orice dispozitiv
+    - title: Dezvoltare aplicații mobile
+      icon: mobile
+      summary: Aplicații Android și cross-platform realizate cu Flutter, de la primul prototip la publicarea în magazin.
+      points:
+        - Cross-platform cu Flutter
+        - Publicare și conformitate Google Play
+        - Funcționează offline și respectă confidențialitatea
+    - title: Outsourcing IT și specialiști dedicați
+      icon: team
+      summary: Extinde-ți echipa cu programatori, testeri și ingineri de suport experimentați, care lucrează ca parte din procesul tău.
+      points:
+        - Programatori, testeri QA și ingineri de suport
+        - Colaborare full-time sau part-time
+        - Instrumentele și fluxul tău de lucru, ore comune
+        - Scalezi în sus sau în jos după nevoie
+    - title: Software personalizat
+      icon: code
+      summary: Software adaptat felului în care lucrează compania ta, nu invers.
+      points:
+        - Automatizarea proceselor manuale
+        - Integrări între instrumentele pe care le folosești
+        - Import de date, rapoarte și exporturi
+    - title: Mentenanță și suport
+      icon: support
+      summary: Îți păstrăm software-ul actualizat, sigur și funcțional după lansare.
+      points:
+        - Remedieri de erori și actualizări
+        - Actualizări pentru politicile magazinelor și versiuni noi de OS
+        - Monitorizare și reacție rapidă
+
+stats:
+  - value: "2023"
+    label: anul înființării
+  - value: Gratuită
+    label: prima consultanță
+  - value: Web și mobile
+    label: livrare completă
+  - value: 1 zi
+    label: timp de răspuns
+
+process:
+  eyebrow: Cum lucrăm
+  title: De la idee la lansare în patru pași clari
+  lead: Știi mereu ce se construiește, când și cât costă.
+  steps:
+    - title: Analiză
+      text: Discutăm obiectivele, utilizatorii și constrângerile, apoi stabilim un scop clar.
+    - title: Ofertă și design
+      text: Primești un calendar, o estimare fixă și primele machete pe care să le comentezi.
+    - title: Dezvoltare
+      text: Construim în iterații scurte și îți arătăm software funcțional la fiecare una-două săptămâni.
+    - title: Lansare și suport
+      text: Lansăm, publicăm în magazine și menținem produsul în formă bună după lansare.
+
+models:
+  eyebrow: Cum putem colabora
+  title: Alege modelul potrivit proiectului tău
+  badge: Cel mai flexibil
+  items:
+    - title: Proiect cu preț fix
+      sub: Ideal pentru produse bine definite
+      points:
+        - Scop, buget și termen stabilite
+        - Livrare pe etape
+        - Fără surprize pe factură
+    - title: Specialist dedicat
+      sub: Ideal pentru muncă continuă și echipe în creștere
+      featured: true
+      points:
+        - Un programator, tester sau inginer de suport în echipa ta
+        - Colaborare lunară, scalabilă oricând
+        - Instrumentele și fluxul tău de lucru
+    - title: Timp și materiale
+      sub: Ideal pentru cerințe care evoluează
+      points:
+        - Plătești doar orele lucrate
+        - Schimbi prioritățile pe parcurs
+        - Rapoarte săptămânale transparente
+
+portfolio:
+  eyebrow: Portofoliu
+  title: Produse dezvoltate de noi
+  all: Toate produsele
+  page_lead: Aplicații web pentru companii și școli, construite și administrate de echipa noastră.
+  web: Aplicații web
+  apps: Aplicații mobile
+  web_pill: Aplicație web
+  app_pill: Aplicație mobilă
+  open: Deschide
+  privacy: Politica de confidențialitate
+  delete_account: Ștergere cont
+  prev: "Înapoi"
+  next: "Înainte"
+  close: "Închide"
+  screenshot: "Captură de ecran"
+
+products:
+  ibill:
+    tagline: Facturare și contabilitate, simplu
+    description: Emite facturi, ciorne, devize și chitanțe dintr-un singur instrument ușor de folosit, dar puternic.
+    shots:
+      - "Pagina de autentificare"
+      - "Panou principal cu situația facturilor"
+      - "Emitere factură cu previzualizare"
+      - "Produse și stocuri"
+      - "Avize de însoțire a mărfii"
+      - "Programări"
+      - "Contul companiei"
+  library:
+    tagline: Gestiunea bibliotecii școlare
+    description: Ține evidența cărților, împrumuturilor și cititorilor din biblioteca școlii.
+    shots:
+      - "Panou principal"
+      - "Cărțile bibliotecii, cu scanare ISBN"
+      - "Fișe cărți"
+      - "Elevi și împrumuturi"
+      - "Profesori, cu asistentul integrat"
+      - "Utilizatori cont și permisiuni"
+
+faq:
+  eyebrow: Întrebări frecvente
+  title: Întrebări frecvente
+  items:
+    - q: Cum începe un proiect?
+      a: Trimite-ne o scurtă descriere a ceea ce îți dorești. Îți răspundem cu întrebări, apoi cu o ofertă care include scopul, calendarul și costul. Prima consultanță este gratuită.
+    - q: Lucrați cu firme mici și startup-uri?
+      a: Da. Lucrăm la proiecte de orice dimensiune, de la o singură aplicație sau funcționalitate la parteneriate pe termen lung.
+    - q: Vă puteți alătura echipei noastre?
+      a: Da. Prin modelul de outsourcing, programatorii, testerii și inginerii noștri de suport lucrează în procesul tău, folosind depozitele de cod, sistemul de task-uri și instrumentele tale de comunicare.
+    - q: Cui îi aparține codul?
+      a: Ție. După plata proiectului, codul sursă și toate drepturile asupra lui îți aparțin.
+    - q: Ce se întâmplă după lansare?
+      a: Putem continua mentenanța produsului, cu remedieri, actualizări pentru versiuni noi de Android și browsere, modificări ale politicilor magazinelor și funcționalități noi.
+    - q: Cum tratați confidențialitatea și datele?
+      a: Integrăm confidențialitatea de la început. Colectăm cât mai puține date și aplicăm cerințele GDPR în software-ul pe care îl construim pentru clienți.
+
+cta:
+  title: Hai să construim ceva grozav împreună
+  text: Spune-ne despre proiectul tău. Îți răspundem în cel mult o zi lucrătoare cu pașii următori.
+  button: Cere o ofertă gratuită
+
+contact:
+  eyebrow: Contactează-ne
+  title: Hai să vorbim despre proiectul tău
+  lead: Spune-ne despre proiectul tău. Prima consultanță este gratuită și îți răspundem în cel mult o zi lucrătoare.
+  name: Numele tău
+  company: Companie
+  optional: (opțional)
+  need: De ce ai nevoie?
+  other: Altceva
+  budget: Buget estimat
+  budgets:
+    - Nu știu încă
+    - Sub 5.000 €
+    - 5.000 – 15.000 €
+    - 15.000 – 50.000 €
+    - Peste 50.000 €
+    - Lunar (programator, tester sau inginer de suport)
+  details: Detalii despre proiect
+  placeholder: Ce construiești, pentru cine și până când ai nevoie de el?
+  send: Trimite mesajul
+  your_email: "Emailul tău"
+  sending: "Se trimite..."
+  success: "Mulțumim! Mesajul tău a fost trimis. Îți răspundem în cel mult o zi lucrătoare."
+  error: "Ne pare rău, mesajul nu a putut fi trimis. Te rugăm să încerci din nou peste câteva minute."
+  subject: Cerere proiect
+  email: Email
+  response_title: Timp de răspuns
+  response_text: În cel mult o zi lucrătoare
+  consult_title: Consultanță gratuită
+  consult_text: O discuție scurtă pentru a-ți înțelege nevoile, fără obligații
+  next_title: Ce urmează?
+  next_steps:
+    - Citim mesajul tău și îți răspundem cu întrebări.
+    - Programăm o discuție scurtă, dacă este util.
+    - Primești o ofertă cu scop, calendar și preț.
+
+about:
+  eyebrow: Cine suntem
+  lead: O companie de dezvoltare software și outsourcing care transformă ideile în software de încredere.
+  intro:
+    - VG OutDev este o companie de dezvoltare software și outsourcing IT, fondată în 2023 și construită pe două principii, <strong>calitatea</strong> și <strong>grija față de client</strong>.
+    - Echipa noastră aduce experiența câștigată lucrând alături de profesioniști de top din industria IT. O punem în slujba proiectelor de orice dimensiune, de la o singură aplicație mobilă la instrumentele pe care rulează întreaga ta companie.
+  values_title: În ce credem
+  values:
+    - title: Comunicare clară
+      text: Știi mereu ce se construiește, când și cât costă.
+    - title: Calitate, nu scurtături
+      text: Cod curat, testat și ușor de întreținut, care funcționează și după lansare.
+    - title: Confidențialitate din proiectare
+      text: Colectăm cât mai puține date și construim la fel pentru clienții noștri.
+    - title: Parteneriate pe termen lung
+      text: Preferăm să fim echipa pe care o suni pentru următorul proiect, nu un furnizor ocazional.
+
+footer:
+  tagline: Dezvoltare software și outsourcing IT.
+  company: Companie
+  services: Servicii
+  contact: Contact
+  quote: Cere o ofertă
+  rights: Toate drepturile rezervate.
+
+not_found:
+  title: Pagina nu a fost găsită
+  text: Ne pare rău, pagina pe care o cauți nu există.
+  back: Înapoi la pagina principală

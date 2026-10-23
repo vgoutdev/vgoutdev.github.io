@@ -19,23 +19,50 @@
 # in the templates via {{ site.myvariable }}.
 
 title: VG OutDev
+tagline: Transforming ideas...
 logo: /assets/img/logo4.PNG
 email: vgoutdev@outlook.com
+# Contact form delivery (https://web3forms.com). Get a free access key by entering
+# vgoutdev@outlook.com on their site; messages are emailed to that address.
+# The key is safe to publish - it can only send mail to you.
+web3forms_key: "bf3497ce-704b-42cf-bc0a-f1da4f3a4bc7"
 description: >- # this means to ignore newlines until "baseurl:"
-  Who are we? 
-  We are a new startup based on quality and customer service. 
-  Our goal is to share with our customers the experience gained after working with the best pros in the IT area.
-  Do not hesitate to contact us for small or big projects.
-  For sure your company will have only to gain!
+  We design, build and maintain web and mobile applications, and extend your team with experienced developers, testers and support engineers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vgoutdev.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vgoutdev
 github_username:  vgoutdev
+
+# Site languages, in the order shown in the language menu. English lives at /,
+# the others under /ro/, /fr/, ... All page text is in _data/i18n/<lang>.yml.
+lang: en
+languages: [en, ro, fr, it, es]
+
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
+
+# Privacy policies and the account deletion page get the "legal" layout.
+# Their URLs are linked from the app stores, so do not rename these files.
+defaults:
+  - scope: { path: "" }
+    values: { lang: en }
+  - scope: { path: "ro" }
+    values: { lang: ro }
+  - scope: { path: "fr" }
+    values: { lang: fr }
+  - scope: { path: "it" }
+    values: { lang: it }
+  - scope: { path: "es" }
+    values: { lang: es }
+  - scope: { path: "*_terms.markdown" }
+    values: { layout: legal }
+  - scope: { path: "pop_it_simple.markdown" }
+    values: { layout: legal }
+  - scope: { path: "account_deletion_drugal.markdown" }
+    values: { layout: legal, lang: ro }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -45,14 +72,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - README
+  - preview.ps1
+  - preview.cmd
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

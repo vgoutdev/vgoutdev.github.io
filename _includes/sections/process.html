@@ -1,0 +1,18 @@
+<section class="section">
+  <div class="wrapper">
+    <div class="section-head center reveal">
+      <p class="eyebrow">{{ t.process.eyebrow }}</p>
+      <h2>{{ t.process.title }}</h2>
+      <p>{{ t.process.lead }}</p>
+    </div>
+    <ol class="process">
+      {%- for step in t.process.steps -%}
+      <li class="reveal">
+        <span class="step">0{{ forloop.index }}</span>
+        <h3>{{ step.title }}</h3>
+        <p>{{ step.text }}</p>
+      </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>

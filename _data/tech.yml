@@ -1,0 +1,15 @@
+# Shown as logos in the "Technologies we work with" strip (files in assets/img/tech/).
+# Logos: Devicon (MIT) and Simple Icons (CC0, Spring Boot); trademarks of their owners.
+- { name: Java,        logo: java.svg }
+- { name: Spring Boot, logo: springboot.svg }
+- { name: Python,      logo: python.svg }
+- { name: Django,      logo: django.svg }
+- { name: Flutter,     logo: flutter.svg }
+- { name: Dart,        logo: dart.svg }
+- { name: Android,     logo: android.svg }
+- { name: JavaScript,  logo: javascript.svg }
+- { name: Node.js,     logo: nodejs.svg }
+- { name: Firebase,    logo: firebase.svg }
+- { name: HTML5,       logo: html5.svg }
+- { name: CSS3,        logo: css3.svg }
+- { name: SQL,         logo: sql.svg }

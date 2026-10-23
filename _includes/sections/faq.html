@@ -1,0 +1,16 @@
+<section class="section">
+  <div class="wrapper narrow">
+    <div class="section-head center reveal">
+      <p class="eyebrow">{{ t.faq.eyebrow }}</p>
+      <h2>{{ t.faq.title }}</h2>
+    </div>
+    <div class="faq">
+      {%- for item in t.faq.items -%}
+      <details class="reveal"{% if forloop.first %} open{% endif %}>
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a }}</p>
+      </details>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

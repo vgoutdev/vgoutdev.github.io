@@ -1,0 +1,79 @@
+# Products shown on the home page and on /products/.
+# kind: "web" or "app". Fields link / privacy are optional.
+# id: key for translated tagline/description in _data/i18n/<lang>.yml (products.<id>).
+# hidden: true keeps a product off the site (its privacy page still works).
+
+- name: iBill
+  id: ibill
+  kind: web
+  tagline: Invoicing & accounting, made simple
+  description: Issue invoices, drafts, estimates and receipts from one easy but powerful tool.
+  link: https://ibill.vgoutdev.com/
+  # Screenshots for the slider; captions are products.ibill.shots in _data/i18n/<lang>.yml
+  images:
+    - /assets/img/products/ibill/1-sign-in.jpg
+    - /assets/img/products/ibill/2-dashboard.jpg
+    - /assets/img/products/ibill/3-invoice.jpg
+    - /assets/img/products/ibill/4-products.jpg
+    - /assets/img/products/ibill/5-delivery-note.jpg
+    - /assets/img/products/ibill/6-booking.jpg
+    - /assets/img/products/ibill/7-account.jpg
+  icon: /assets/ibill.svg
+
+- name: School Library
+  id: library
+  kind: web
+  tagline: Library management for schools
+  description: Keep track of books, loans and readers in your school library.
+  link: https://library.vgoutdev.com/
+  # Screenshots for the slider; captions are products.library.shots in _data/i18n/<lang>.yml
+  images:
+    - /assets/img/products/library/1-dashboard.jpg
+    - /assets/img/products/library/2-books.jpg
+    - /assets/img/products/library/3-book-records.jpg
+    - /assets/img/products/library/4-students.jpg
+    - /assets/img/products/library/5-teachers-assistant.jpg
+    - /assets/img/products/library/6-users.jpg
+
+- name: Drugal
+  kind: app
+  hidden: true
+  tagline: Scan, track and organize your inventory
+  description: Barcode scanning, receipt capture and on-device text recognition, with optional cloud sync.
+  privacy: /drugal_terms.html
+  account_deletion: /account_deletion_drugal.html
+
+- name: Digital School
+  kind: app
+  hidden: true
+  tagline: Learning on the go
+  description: A mobile app for school. Works offline and collects no personal data.
+  privacy: /digital_school_terms.html
+
+- name: Bubbles Quest
+  kind: app
+  hidden: true
+  tagline: Casual bubble game
+  description: A relaxing offline game for all ages. No ads, no tracking.
+  privacy: /bubbles_quest_terms.html
+
+- name: Fog Reveal
+  kind: app
+  hidden: true
+  tagline: Uncover what's hidden
+  description: An offline puzzle game. No ads, no tracking.
+  privacy: /fog_reveal_terms.html
+
+- name: RPS Blitz
+  kind: app
+  hidden: true
+  tagline: Rock, paper, scissors, fast
+  description: The classic game with a quick twist. No ads, no tracking.
+  privacy: /rps_terms.html
+
+- name: Pop it simple
+  kind: app
+  hidden: true
+  tagline: Pop, relax, repeat
+  description: A simple fidget-style popping game. No ads, no tracking.
+  privacy: /pop_it_simple.html

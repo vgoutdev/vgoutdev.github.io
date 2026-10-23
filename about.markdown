@@ -1,10 +1,8 @@
 ---
-layout: page
-title: About us
+# Text for this page lives in _data/i18n/en.yml
+layout: about
+ref: about
+title: "About us"
+description: "A software development and outsourcing company that turns ideas into dependable software."
 permalink: /about/
 ---
-
-Please contact us by writing to vgoutdev@outlook.com.
-We will be very happy to respond.
-
-

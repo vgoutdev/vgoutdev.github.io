@@ -1,0 +1,37 @@
+---
+layout: base
+---
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+
+<section class="page-hero">
+  <div class="wrapper">
+    <p class="eyebrow">{{ t.services.page_eyebrow }}</p>
+    <h1>{{ t.titles.services }}</h1>
+    <p class="lead">{{ t.services.page_lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper">
+    <div class="grid grid-2">
+      {%- for s in t.services.items -%}
+      <div class="card service service-detail reveal">
+        <span class="icon-box">{% include icon.html name=s.icon %}</span>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.summary }}</p>
+        <ul class="checks">
+          {%- for point in s.points -%}
+          <li>{% include icon.html name="check" %}{{ point }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% include sections/stack.html %}
+{% include sections/process.html %}
+{% include sections/engagement.html %}
+{% include sections/faq.html %}
+{% include sections/cta.html %}

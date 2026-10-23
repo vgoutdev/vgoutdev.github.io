@@ -1,0 +1,259 @@
+# English - the reference translation. Every other language file has the same keys.
+lang_name: English
+date_format: "%b %-d, %Y"
+
+nav:
+  home: Home
+  services: Services
+  products: Products
+  about: About
+  contact: Contact
+  quote: Get a quote
+
+titles:
+  home: Software development & IT outsourcing
+  services: Services
+  products: Our products
+  about: About us
+  contact: Contact
+
+site_description: >-
+  We design, build and maintain web and mobile applications, and extend your team with experienced developers, testers and support engineers.
+
+hero:
+  eyebrow: Software development & IT outsourcing
+  title1: We build the software
+  title2: your business runs on.
+  primary: Get a free quote
+  secondary: Explore services
+  points:
+    - Free first consultation
+    - You own the code
+    - EU-based, GDPR-aware
+  float1_title: Weekly demos
+  float1_text: See progress early
+  float2_title: Privacy-first
+  float2_text: Built in from day one
+
+stack_label: Technologies we work with
+
+services:
+  eyebrow: Services
+  title: What we can do for you
+  all: All services
+  page_eyebrow: What we do
+  page_lead: Web and mobile development, IT outsourcing and long-term support, delivered by a team that cares about quality.
+  items:
+    - title: Web application development
+      icon: web
+      summary: Fast, secure web apps for your business, from internal tools to customer-facing platforms.
+      points:
+        - Business tools, portals and dashboards
+        - Invoicing, inventory and management systems
+        - Responsive, works on any device
+    - title: Mobile app development
+      icon: mobile
+      summary: Android and cross-platform apps built with Flutter, from first prototype to store release.
+      points:
+        - Cross-platform with Flutter
+        - Google Play publishing and compliance
+        - Offline-first and privacy-friendly
+    - title: IT outsourcing & dedicated specialists
+      icon: team
+      summary: Extend your team with experienced developers, testers and support engineers who work as part of your process.
+      points:
+        - Developers, QA testers and support engineers
+        - Full-time or part-time engagement
+        - Your tools, your workflow, overlapping hours
+        - Scale up or down as you need
+    - title: Custom software
+      icon: code
+      summary: Software shaped around how your company actually works, not the other way around.
+      points:
+        - Automation of manual processes
+        - Integrations between the tools you use
+        - Data import, reporting and exports
+    - title: Maintenance & support
+      icon: support
+      summary: We keep your software up to date, secure and running after launch.
+      points:
+        - Bug fixes and updates
+        - Store policy and OS version updates
+        - Monitoring and quick response
+
+stats:
+  - value: "2023"
+    label: founded
+  - value: Free
+    label: first consultation
+  - value: Web & mobile
+    label: end-to-end delivery
+  - value: 1 day
+    label: reply time
+
+process:
+  eyebrow: How we work
+  title: From idea to launch in four clear steps
+  lead: You always know what is being built, when, and what it costs.
+  steps:
+    - title: Discovery
+      text: We talk through your goals, users and constraints, then agree on a clear scope.
+    - title: Proposal & design
+      text: You get a timeline, a fixed estimate and early mock-ups to react to.
+    - title: Development
+      text: We build in short iterations and show working software every week or two.
+    - title: Launch & support
+      text: We release, publish to the stores, and keep your product healthy after launch.
+
+models:
+  eyebrow: Ways to work with us
+  title: Pick the model that fits your project
+  badge: Most flexible
+  items:
+    - title: Fixed-price project
+      sub: Best for well-defined products
+      points:
+        - Agreed scope, budget and deadline
+        - Milestone-based delivery
+        - No surprises on the invoice
+    - title: Dedicated specialist
+      sub: Best for ongoing work and growing teams
+      featured: true
+      points:
+        - A developer, tester or support engineer in your team
+        - Monthly engagement, scale anytime
+        - Your tools and workflow
+    - title: Time & materials
+      sub: Best for evolving requirements
+      points:
+        - Pay only for the hours worked
+        - Change priorities as you learn
+        - Transparent weekly reports
+
+portfolio:
+  eyebrow: Portfolio
+  title: Products we've built
+  all: All products
+  page_lead: Web applications for businesses and schools, built and run by our team.
+  web: Web applications
+  apps: Mobile apps
+  web_pill: Web app
+  app_pill: Mobile app
+  open: Open
+  privacy: Privacy policy
+  delete_account: Delete account
+  prev: "Previous"
+  next: "Next"
+  close: "Close"
+  screenshot: "Screenshot"
+
+products:
+  ibill:
+    tagline: Invoicing & accounting, made simple
+    description: Issue invoices, drafts, estimates and receipts from one easy but powerful tool.
+    shots:
+      - "Sign-in page"
+      - "Dashboard with invoicing overview"
+      - "Create an invoice with live preview"
+      - "Products and stock"
+      - "Delivery notes"
+      - "Appointment booking"
+      - "Company account"
+  library:
+    tagline: Library management for schools
+    description: Keep track of books, loans and readers in your school library.
+    shots:
+      - "Dashboard"
+      - "Library books, with ISBN scanning"
+      - "Book records"
+      - "Students and loans"
+      - "Teachers, with the built-in assistant"
+      - "Account users and permissions"
+
+faq:
+  eyebrow: FAQ
+  title: Frequently asked questions
+  items:
+    - q: How does a project start?
+      a: Send us a short description of what you need. We reply with questions, then a proposal with scope, timeline and cost. The first consultation is free.
+    - q: Do you work with small companies and startups?
+      a: Yes. We work on projects of every size, from a single app or feature to long-term development partnerships.
+    - q: Can you join our existing team?
+      a: Yes. With our outsourcing model, our developers, testers and support engineers work inside your process, using your repositories, task tracker and communication tools.
+    - q: Who owns the code?
+      a: You do. Once the project is paid for, the source code and all rights to it belong to you.
+    - q: What happens after launch?
+      a: We can keep maintaining the product, with fixes, updates for new Android and browser versions, store policy changes and new features.
+    - q: How do you handle privacy and data?
+      a: We build privacy in from the start. We collect as little data as possible and apply GDPR requirements to the software we build for clients.
+
+cta:
+  title: Let's build something great together
+  text: Tell us about your project. We reply within one business day with next steps.
+  button: Get a free quote
+
+contact:
+  eyebrow: Get in touch
+  title: Let's talk about your project
+  lead: Tell us about your project. The first consultation is free, and we reply within one business day.
+  name: Your name
+  company: Company
+  optional: (optional)
+  need: What do you need?
+  other: Something else
+  budget: Estimated budget
+  budgets:
+    - Not sure yet
+    - Under €5,000
+    - €5,000 – €15,000
+    - €15,000 – €50,000
+    - Over €50,000
+    - Monthly (developer, tester or support engineer)
+  details: Project details
+  placeholder: What are you building, who is it for, and when do you need it?
+  send: Send message
+  your_email: "Your email"
+  sending: "Sending..."
+  success: "Thank you! Your message has been sent. We'll reply within one business day."
+  error: "Sorry, the message could not be sent. Please try again in a few minutes."
+  subject: Project inquiry
+  email: Email
+  response_title: Response time
+  response_text: Within one business day
+  consult_title: Free consultation
+  consult_text: A short call to understand your needs, no obligation
+  next_title: What happens next?
+  next_steps:
+    - We read your message and reply with questions.
+    - We schedule a short call if useful.
+    - You receive a proposal with scope, timeline and price.
+
+about:
+  eyebrow: Who we are
+  lead: A software development and outsourcing company that turns ideas into dependable software.
+  intro:
+    - VG OutDev is a software development and IT outsourcing company, founded in 2023 and built on two things, <strong>quality</strong> and <strong>customer care</strong>.
+    - Our team brings the experience gained working alongside top professionals in the IT industry. We put it to work on projects of every size, from a single mobile app to the tools your whole company runs on.
+  values_title: What we believe in
+  values:
+    - title: Clear communication
+      text: You always know what is being built, when, and what it costs.
+    - title: Quality over shortcuts
+      text: Clean, tested and maintainable code that keeps working after launch.
+    - title: Privacy by design
+      text: We collect as little data as possible, and we build the same way for our clients.
+    - title: Long-term partnerships
+      text: We'd rather be the team you call for the next project than a one-off vendor.
+
+footer:
+  tagline: Software development & IT outsourcing.
+  company: Company
+  services: Services
+  contact: Get in touch
+  quote: Request a quote
+  rights: All rights reserved.
+
+not_found:
+  title: Page not found
+  text: Sorry, the page you're looking for doesn't exist.
+  back: Back to home

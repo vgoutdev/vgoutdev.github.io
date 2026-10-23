@@ -1,1 +1,14 @@
-work in progress
+VG OutDev website - https://vgoutdev.com
+Built with Jekyll and published automatically by GitHub Pages on every push to main.
+
+PREVIEW BEFORE PUSHING
+  Double-click preview.cmd (or run .\preview.ps1 in PowerShell).
+  It opens http://localhost:4000 and reloads the page whenever you save a file.
+  Press Ctrl+C in the window to stop. Nothing is uploaded until you git push.
+
+WHERE THINGS ARE
+  _data/products.yml   product list (home page + /products/)
+  about.markdown       About page
+  *_terms.markdown     app privacy policies - linked from the app stores, do not rename
+  _layouts, _includes  page templates
+  assets/css/site.scss all styles

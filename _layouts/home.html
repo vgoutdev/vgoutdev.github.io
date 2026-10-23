@@ -1,15 +1,98 @@
 ---
 layout: base
 ---
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<section class="hero">
+  <div class="wrapper hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ t.hero.eyebrow }}</p>
+      <h1>{{ t.hero.title1 }}<br><span class="grad">{{ t.hero.title2 }}</span></h1>
+      <p class="lead">{{ t.site_description }}</p>
+      <div class="hero-actions">
+        <a class="btn" href="{% include link.html ref="contact" %}">{{ t.hero.primary }}</a>
+        <a class="btn btn-ghost" href="{% include link.html ref="services" %}">{{ t.hero.secondary }}</a>
+      </div>
+      <ul class="hero-points">
+        {%- for point in t.hero.points -%}
+        <li>{% include icon.html name="check" %}{{ point }}</li>
+        {%- endfor -%}
+      </ul>
+    </div>
 
-  {{ content }}
+    <div class="hero-visual" aria-hidden="true">
+      <div class="code-window">
+        <div class="code-bar"><i></i><i></i><i></i><span>project.dart</span></div>
+<pre><code><span class="c">// Your idea, shipped.</span>
+<span class="k">final</span> project = <span class="f">Project</span>(
+  client: <span class="s">'You'</span>,
+  platforms: [<span class="s">'web'</span>, <span class="s">'android'</span>],
+  quality: <span class="f">Quality</span>.high,
+);
 
-<img src="/assets/img/cover.jpg"/>
- 
+<span class="k">await</span> vgOutDev.<span class="f">build</span>(project);
+<span class="k">await</span> project.<span class="f">launch</span>(); <span class="c">// 🚀</span></code></pre>
+      </div>
+      <div class="float-card float-1">{% include icon.html name="bolt" %}<div><strong>{{ t.hero.float1_title }}</strong><span>{{ t.hero.float1_text }}</span></div></div>
+      <div class="float-card float-2">{% include icon.html name="shield" %}<div><strong>{{ t.hero.float2_title }}</strong><span>{{ t.hero.float2_text }}</span></div></div>
+    </div>
+  </div>
+</section>
 
-</div>
+{% include sections/stack.html %}
+
+<section class="section">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">{{ t.services.eyebrow }}</p>
+        <h2>{{ t.services.title }}</h2>
+      </div>
+      <a class="link-arrow" href="{% include link.html ref="services" %}">{{ t.services.all }} →</a>
+    </div>
+    <div class="grid grid-3">
+      {%- for s in t.services.items -%}
+      <div class="card service reveal">
+        <span class="icon-box">{% include icon.html name=s.icon %}</span>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.summary }}</p>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrapper stats-inner">
+    {%- for stat in t.stats -%}
+    <div class="stat reveal"><strong>{{ stat.value }}</strong><span>{{ stat.label }}</span></div>
+    {%- endfor -%}
+  </div>
+</section>
+
+{% include sections/process.html %}
+
+{%- assign visible = site.data.products | where_exp: "p", "p.hidden != true" -%}
+{%- if visible.size > 0 -%}
+<section class="section section-alt">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">{{ t.portfolio.eyebrow }}</p>
+        <h2>{{ t.portfolio.title }}</h2>
+      </div>
+      <a class="link-arrow" href="{% include link.html ref="products" %}">{{ t.portfolio.all }} →</a>
+    </div>
+    <div class="grid grid-3">
+      {%- for product in visible limit: 3 -%}
+        {%- include product-card.html product=product -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+{% include sections/engagement.html %}
+
+{% include sections/faq.html %}
+{% include sections/cta.html %}

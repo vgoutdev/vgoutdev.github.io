@@ -1,0 +1,78 @@
+---
+layout: base
+---
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+
+<section class="page-hero">
+  <div class="wrapper">
+    <p class="eyebrow">{{ t.contact.eyebrow }}</p>
+    <h1>{{ t.contact.title }}</h1>
+    <p class="lead">{{ t.contact.lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper contact-grid">
+    {%- comment -%}
+      GitHub Pages has no server, so messages are sent through Web3Forms
+      (web3forms.com), which emails them to the address its access key was
+      created for. The key is set as web3forms_key in _config.yml; it is meant
+      to be public. See assets/js/site.js.
+    {%- endcomment -%}
+    <form class="card contact-form" id="contact-form" novalidate
+          data-key="{{ site.web3forms_key }}"
+          data-subject="{{ t.contact.subject }}"
+          data-sending="{{ t.contact.sending }}"
+          data-success="{{ t.contact.success }}"
+          data-error="{{ t.contact.error }}">
+      <div class="field-row">
+        <label>{{ t.contact.name }}
+          <input name="name" data-label="{{ t.contact.name }}" required autocomplete="name">
+        </label>
+        <label>{{ t.contact.your_email }}
+          <input name="email" type="email" data-label="{{ t.contact.your_email }}" required autocomplete="email">
+        </label>
+      </div>
+      <label>{{ t.contact.company }} <span class="opt">{{ t.contact.optional }}</span>
+        <input name="company" data-label="{{ t.contact.company }}" autocomplete="organization">
+      </label>
+      <label>{{ t.contact.need }}
+        <select name="service" data-label="{{ t.contact.need }}">
+          {%- for s in t.services.items -%}<option>{{ s.title }}</option>{%- endfor -%}
+          <option>{{ t.contact.other }}</option>
+        </select>
+      </label>
+      <label>{{ t.contact.budget }} <span class="opt">{{ t.contact.optional }}</span>
+        <select name="budget" data-label="{{ t.contact.budget }}">
+          {%- for b in t.contact.budgets -%}<option>{{ b }}</option>{%- endfor -%}
+        </select>
+      </label>
+      <label>{{ t.contact.details }}
+        <textarea name="message" rows="6" required placeholder="{{ t.contact.placeholder }}"></textarea>
+      </label>
+      {%- comment -%} Hidden from people; bots that fill it in are rejected. {%- endcomment -%}
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn" type="submit">{{ t.contact.send }} {% include icon.html name="arrow" %}</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+
+    <aside class="contact-info">
+      <div class="info-item">
+        <span class="icon-box">{% include icon.html name="clock" %}</span>
+        <div><strong>{{ t.contact.response_title }}</strong><span>{{ t.contact.response_text }}</span></div>
+      </div>
+      <div class="info-item">
+        <span class="icon-box">{% include icon.html name="chat" %}</span>
+        <div><strong>{{ t.contact.consult_title }}</strong><span>{{ t.contact.consult_text }}</span></div>
+      </div>
+      <div class="card next-steps">
+        <h3>{{ t.contact.next_title }}</h3>
+        <ol>
+          {%- for step in t.contact.next_steps -%}<li>{{ step }}</li>{%- endfor -%}
+        </ol>
+      </div>
+    </aside>
+  </div>
+</section>
+
+{% include sections/faq.html %}

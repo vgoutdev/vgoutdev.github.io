@@ -1,0 +1,258 @@
+lang_name: Français
+date_format: "%d/%m/%Y"
+
+nav:
+  home: Accueil
+  services: Services
+  products: Produits
+  about: À propos
+  contact: Contact
+  quote: Demander un devis
+
+titles:
+  home: Développement logiciel et externalisation IT
+  services: Services
+  products: Nos produits
+  about: À propos
+  contact: Contact
+
+site_description: >-
+  Nous concevons, développons et maintenons des applications web et mobiles, et renforçons votre équipe avec des développeurs, testeurs et ingénieurs support expérimentés.
+
+hero:
+  eyebrow: Développement logiciel et externalisation IT
+  title1: Nous créons le logiciel
+  title2: qui fait tourner votre entreprise.
+  primary: Demander un devis gratuit
+  secondary: Découvrir nos services
+  points:
+    - Première consultation gratuite
+    - Le code vous appartient
+    - Basés en UE, conformes RGPD
+  float1_title: Démos hebdomadaires
+  float1_text: Suivez l’avancement
+  float2_title: Confidentialité
+  float2_text: Intégrée dès le départ
+
+stack_label: Technologies que nous utilisons
+
+services:
+  eyebrow: Services
+  title: Ce que nous pouvons faire pour vous
+  all: Tous les services
+  page_eyebrow: Ce que nous faisons
+  page_lead: Développement web et mobile, externalisation IT et support à long terme, assurés par une équipe attachée à la qualité.
+  items:
+    - title: Développement d’applications web
+      icon: web
+      summary: Des applications web rapides et sécurisées pour votre entreprise, des outils internes aux plateformes clients.
+      points:
+        - Outils métier, portails et tableaux de bord
+        - Facturation, gestion de stock et de gestion
+        - Responsive, sur tous les appareils
+    - title: Développement d’applications mobiles
+      icon: mobile
+      summary: Des applications Android et multiplateformes avec Flutter, du premier prototype à la publication.
+      points:
+        - Multiplateforme avec Flutter
+        - Publication et conformité Google Play
+        - Fonctionnement hors ligne et respect de la vie privée
+    - title: Externalisation IT et spécialistes dédiés
+      icon: team
+      summary: Renforcez votre équipe avec des développeurs, testeurs et ingénieurs support expérimentés, intégrés à vos processus.
+      points:
+        - Développeurs, testeurs QA et ingénieurs support
+        - Temps plein ou temps partiel
+        - Vos outils, votre méthode, des horaires communs
+        - Augmentez ou réduisez selon vos besoins
+    - title: Logiciel sur mesure
+      icon: code
+      summary: Un logiciel adapté à la façon dont votre entreprise travaille vraiment, et non l’inverse.
+      points:
+        - Automatisation des tâches manuelles
+        - Intégrations entre vos outils
+        - Import de données, rapports et exports
+    - title: Maintenance et support
+      icon: support
+      summary: Nous gardons votre logiciel à jour, sécurisé et opérationnel après le lancement.
+      points:
+        - Corrections de bugs et mises à jour
+        - Mises à jour des règles des stores et des versions d’OS
+        - Surveillance et réactivité
+
+stats:
+  - value: "2023"
+    label: année de création
+  - value: Gratuite
+    label: première consultation
+  - value: Web et mobile
+    label: livraison de bout en bout
+  - value: 1 jour
+    label: délai de réponse
+
+process:
+  eyebrow: Notre méthode
+  title: De l’idée au lancement en quatre étapes claires
+  lead: Vous savez toujours ce qui est développé, quand, et à quel coût.
+  steps:
+    - title: Découverte
+      text: Nous échangeons sur vos objectifs, vos utilisateurs et vos contraintes, puis définissons un périmètre clair.
+    - title: Proposition et design
+      text: Vous recevez un planning, un devis fixe et des maquettes à commenter.
+    - title: Développement
+      text: Nous avançons par itérations courtes et vous montrons un logiciel fonctionnel toutes les une à deux semaines.
+    - title: Lancement et support
+      text: Nous mettons en ligne, publions sur les stores et maintenons votre produit après le lancement.
+
+models:
+  eyebrow: Comment travailler ensemble
+  title: Choisissez le modèle adapté à votre projet
+  badge: Le plus flexible
+  items:
+    - title: Projet au forfait
+      sub: Idéal pour les produits bien définis
+      points:
+        - Périmètre, budget et délai convenus
+        - Livraison par jalons
+        - Aucune surprise sur la facture
+    - title: Spécialiste dédié
+      sub: Idéal pour un travail continu et des équipes en croissance
+      featured: true
+      points:
+        - Un développeur, testeur ou ingénieur support intégré à votre équipe
+        - Engagement mensuel, ajustable à tout moment
+        - Vos outils et votre méthode
+    - title: Régie
+      sub: Idéal pour des besoins qui évoluent
+      points:
+        - Vous payez uniquement les heures travaillées
+        - Priorités modifiables en cours de route
+        - Rapports hebdomadaires transparents
+
+portfolio:
+  eyebrow: Portfolio
+  title: Produits que nous avons créés
+  all: Tous les produits
+  page_lead: Des applications web pour les entreprises et les écoles, développées et gérées par notre équipe.
+  web: Applications web
+  apps: Applications mobiles
+  web_pill: Application web
+  app_pill: Application mobile
+  open: Ouvrir
+  privacy: Politique de confidentialité
+  delete_account: Supprimer le compte
+  prev: "Précédent"
+  next: "Suivant"
+  close: "Fermer"
+  screenshot: "Capture d’écran"
+
+products:
+  ibill:
+    tagline: Facturation et comptabilité, en toute simplicité
+    description: Émettez factures, brouillons, devis et reçus avec un seul outil simple mais puissant.
+    shots:
+      - "Page de connexion"
+      - "Tableau de bord de facturation"
+      - "Création de facture avec aperçu en direct"
+      - "Produits et stocks"
+      - "Bons de livraison"
+      - "Prise de rendez-vous"
+      - "Compte de l’entreprise"
+  library:
+    tagline: Gestion de bibliothèque scolaire
+    description: Suivez les livres, les prêts et les lecteurs de la bibliothèque de votre école.
+    shots:
+      - "Tableau de bord"
+      - "Livres de la bibliothèque, avec scan ISBN"
+      - "Fiches des livres"
+      - "Élèves et prêts"
+      - "Enseignants, avec l’assistant intégré"
+      - "Utilisateurs du compte et autorisations"
+
+faq:
+  eyebrow: FAQ
+  title: Questions fréquentes
+  items:
+    - q: Comment démarre un projet ?
+      a: Envoyez-nous une courte description de votre besoin. Nous revenons vers vous avec des questions, puis une proposition avec périmètre, planning et coût. La première consultation est gratuite.
+    - q: Travaillez-vous avec les petites entreprises et les startups ?
+      a: Oui. Nous travaillons sur des projets de toutes tailles, d’une simple application à des partenariats à long terme.
+    - q: Pouvez-vous rejoindre notre équipe existante ?
+      a: Oui. Avec notre modèle d’externalisation, nos développeurs, testeurs et ingénieurs support travaillent dans vos processus, avec vos dépôts, votre outil de suivi et vos outils de communication.
+    - q: À qui appartient le code ?
+      a: À vous. Une fois le projet payé, le code source et tous les droits associés vous appartiennent.
+    - q: Que se passe-t-il après le lancement ?
+      a: Nous pouvons continuer à maintenir le produit, avec des corrections, des mises à jour pour les nouvelles versions d’Android et des navigateurs, les changements de règles des stores et de nouvelles fonctionnalités.
+    - q: Comment gérez-vous la confidentialité et les données ?
+      a: Nous intégrons la confidentialité dès la conception. Nous collectons le moins de données possible et appliquons les exigences du RGPD aux logiciels que nous créons pour nos clients.
+
+cta:
+  title: Construisons ensemble quelque chose de remarquable
+  text: Parlez-nous de votre projet. Nous répondons sous un jour ouvré avec les prochaines étapes.
+  button: Demander un devis gratuit
+
+contact:
+  eyebrow: Contactez-nous
+  title: Parlons de votre projet
+  lead: Parlez-nous de votre projet. La première consultation est gratuite et nous répondons sous un jour ouvré.
+  name: Votre nom
+  company: Entreprise
+  optional: (facultatif)
+  need: De quoi avez-vous besoin ?
+  other: Autre chose
+  budget: Budget estimé
+  budgets:
+    - Je ne sais pas encore
+    - Moins de 5 000 €
+    - 5 000 – 15 000 €
+    - 15 000 – 50 000 €
+    - Plus de 50 000 €
+    - Mensuel (développeur, testeur ou ingénieur support)
+  details: Détails du projet
+  placeholder: Que construisez-vous, pour qui, et pour quand ?
+  send: Envoyer le message
+  your_email: "Votre email"
+  sending: "Envoi en cours..."
+  success: "Merci ! Votre message a bien été envoyé. Nous vous répondrons sous un jour ouvré."
+  error: "Désolé, le message n’a pas pu être envoyé. Veuillez réessayer dans quelques minutes."
+  subject: Demande de projet
+  email: Email
+  response_title: Délai de réponse
+  response_text: Sous un jour ouvré
+  consult_title: Consultation gratuite
+  consult_text: Un court appel pour comprendre vos besoins, sans engagement
+  next_title: Et ensuite ?
+  next_steps:
+    - Nous lisons votre message et revenons vers vous avec des questions.
+    - Nous planifions un court appel si nécessaire.
+    - Vous recevez une proposition avec périmètre, planning et prix.
+
+about:
+  eyebrow: Qui sommes-nous
+  lead: Une entreprise de développement logiciel et d’externalisation qui transforme les idées en logiciels fiables.
+  intro:
+    - VG OutDev est une entreprise de développement logiciel et d’externalisation IT, fondée en 2023 et bâtie sur deux piliers, <strong>la qualité</strong> et <strong>l’attention portée au client</strong>.
+    - Notre équipe apporte l’expérience acquise aux côtés de grands professionnels de l’informatique. Nous la mettons au service de projets de toutes tailles, d’une simple application mobile aux outils qui font tourner toute votre entreprise.
+  values_title: Nos valeurs
+  values:
+    - title: Une communication claire
+      text: Vous savez toujours ce qui est développé, quand, et à quel coût.
+    - title: La qualité avant tout
+      text: Un code propre, testé et maintenable, qui continue de fonctionner après le lancement.
+    - title: Confidentialité dès la conception
+      text: Nous collectons le moins de données possible et travaillons de la même façon pour nos clients.
+    - title: Des partenariats durables
+      text: Nous préférons être l’équipe que vous rappelez pour le prochain projet plutôt qu’un prestataire ponctuel.
+
+footer:
+  tagline: Développement logiciel et externalisation IT.
+  company: Entreprise
+  services: Services
+  contact: Contact
+  quote: Demander un devis
+  rights: Tous droits réservés.
+
+not_found:
+  title: Page introuvable
+  text: Désolé, la page que vous recherchez n’existe pas.
+  back: Retour à l’accueil

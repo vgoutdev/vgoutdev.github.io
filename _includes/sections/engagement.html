@@ -1,0 +1,22 @@
+<section class="section section-alt">
+  <div class="wrapper">
+    <div class="section-head center reveal">
+      <p class="eyebrow">{{ t.models.eyebrow }}</p>
+      <h2>{{ t.models.title }}</h2>
+    </div>
+    <div class="grid grid-3">
+      {%- for m in t.models.items -%}
+      <div class="card model{% if m.featured %} model-featured{% endif %} reveal">
+        {%- if m.featured -%}<span class="badge">{{ t.models.badge }}</span>{%- endif -%}
+        <h3>{{ m.title }}</h3>
+        <p class="model-sub">{{ m.sub }}</p>
+        <ul class="checks">
+          {%- for point in m.points -%}
+          <li>{% include icon.html name="check" %}{{ point }}</li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

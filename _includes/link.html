@@ -1,0 +1,12 @@
+{%- comment -%}
+  Prints the URL of a page in the current language (or include.lang).
+  Usage: <a href="{% include link.html ref="contact" %}">
+  URLs follow the permalinks of the pages: English at /<ref>/, others at
+  /<lang>/<ref>/, and "home" at / or /<lang>/. (Looking pages up through
+  site.pages works too, but makes the build many times slower.)
+{%- endcomment -%}
+{%- assign _lang = include.lang | default: page.lang | default: "en" -%}
+{%- capture _url -%}
+  {%- unless _lang == "en" -%}/{{ _lang }}{%- endunless -%}/{%- unless include.ref == "home" -%}{{ include.ref }}/{%- endunless -%}
+{%- endcapture -%}
+{%- if include.absolute -%}{{- _url | absolute_url -}}{%- else -%}{{- _url | relative_url -}}{%- endif -%}

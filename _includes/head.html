@@ -1,0 +1,18 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  {%- seo -%}
+  {%- if page.ref -%}
+    {%- for l in site.languages %}
+  <link rel="alternate" hreflang="{{ l }}" href="{% include link.html ref=page.ref lang=l absolute=true %}">
+    {%- endfor %}
+  <link rel="alternate" hreflang="x-default" href="{% include link.html ref=page.ref lang="en" absolute=true %}">
+  {%- endif %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="{{ "/assets/css/site.css" | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | relative_url }}">
+</head>

@@ -1,0 +1,42 @@
+---
+layout: base
+---
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+
+<section class="page-hero">
+  <div class="wrapper">
+    <p class="eyebrow">{{ t.about.eyebrow }}</p>
+    <h1>{{ t.titles.about }}</h1>
+    <p class="lead">{{ t.about.lead }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrapper narrow prose about-intro">
+    {%- for para in t.about.intro -%}
+    <p>{{ para }}</p>
+    {%- endfor -%}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrapper">
+    <div class="section-head center reveal">
+      <h2>{{ t.about.values_title }}</h2>
+    </div>
+    <div class="grid grid-2">
+      {%- for v in t.about.values -%}
+      <div class="card value reveal">
+        <span class="icon-box">{% include icon.html name="check" %}</span>
+        <div>
+          <h3>{{ v.title }}</h3>
+          <p>{{ v.text }}</p>
+        </div>
+      </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+{% include sections/stack.html %}
+{% include sections/cta.html %}
